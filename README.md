@@ -12,6 +12,7 @@
 
 ## Challenges 
 (discuss challenges you faced in the project)
-
+Figuring the required information that is needed to get the specific results needed.
 ## Future Goals
 (what would you do if you had more time?)
+1. Clean up the presentation of many of the columns, so that they are more presentable to the reader.
