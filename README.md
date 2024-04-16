@@ -1,7 +1,7 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-(To clean up the data as well provide answers to relevant questions)
+(To clean up the data as well as provide answers to relevant questions)
 
 ## Process
 ### (your step 1)
