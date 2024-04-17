@@ -9,7 +9,8 @@ Describe your QA process and include the SQL queries used to execute it.
 
      a.	SELECT full_visitor_id FROM all_sessions Results = 15,134
      b.	SELECT COUNT( DISTINCT full_visitor_id) FROM all_sessions Results 14,223
+  	
 
-2.	I did a filter on date to ensure that the date range is within the specified range.
+3.	I did a filter on date to ensure that the date range is within the specified range.
 
     a.	SELECT date FROM analytics WHERE date  BETWEEN  '20170601' AND '20170701'
