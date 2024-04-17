@@ -38,7 +38,8 @@ limit 10
 
 
 Answer: This shows the time visited on each page title from all_sessions
-[question 3.docx](https://github.com/Ayiwoma/SQL-Project/files/15004682/question.3.docx)
+![image](https://github.com/Ayiwoma/SQL-Project/assets/141646278/dae7691b-0a09-4b36-a70f-3c611a58e414)
+
 
 
 
