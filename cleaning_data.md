@@ -11,7 +11,9 @@ Queries:
 Below, provide the SQL queries you used to clean your data.
 
 1. SELECT NULLIF(city, ' ') AS city FROM all_sessions;
+   
   Result 
+  
 ||
 ||
 
@@ -19,7 +21,7 @@ Below, provide the SQL queries you used to clean your data.
    
 
 
-2. SELECT CAST(TO_TIMESTAMP(time) AS time) FROM all_sessions
+3. SELECT CAST(TO_TIMESTAMP(time) AS time) FROM all_sessions
 
    Result 
 
@@ -29,5 +31,6 @@ Below, provide the SQL queries you used to clean your data.
 3. Filled the empty columns for ecommerce_action_option with null value
 
 Result 
+
 ||
 ||
