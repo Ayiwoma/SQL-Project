@@ -18,6 +18,7 @@ Use SQL queries to retrievethe data to answer questions that are needed to make 
 
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
+
 The data reveals how a company can get information on which places get the most revenue.
 The  data can show the company which product sells the most and what location buys certain products the most.
 The data can show which site are visited and how long a user makes a choice one a selection
@@ -32,6 +33,7 @@ Some of the data w
 
 ## Future Goals
 (what would you do if you had more time?)
+
 1. Clean up the presentation of many of the columns, so that they are more presentable to the reader.
 2. Arrange the data so that the empty columns will filled with information that will better explain the situation of that particular column instead it being null
 3. Calculate some of the columns that had revenue and fill them with the needed information
