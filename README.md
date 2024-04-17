@@ -8,7 +8,9 @@ Provide answers to relevant questions
 ## Process
 ### (your step 1) 
 Create database, set up tables, create columns and input with relevant information from the data downloaded
+
 Extracting data and uploading the data on PostGreSql into relevant columns
+
 Filtering and cleaning data to enable choice of what is useful, relevant to the serve the purpose for which it is needed.
 
 ### (your step 2)
