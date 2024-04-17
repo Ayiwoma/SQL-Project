@@ -1,15 +1,17 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-1. Create database, set up tables, create columns 
+The goal of this project is to create a database on pgadmin4, set up tables for the downloaded csv file, and finally create columns.
 
-2. To clean up the data
+In carrying out this project I aim to do the following
 
-3. Provide answers to relevant questions
+1. Answer questions asked about this data
+   
+2. Generate my own questions from the data supplied.
+   
+3. Cleaning the data, which includes filling columns where the data is null, checking for duplicates in all the tables created.
 
-4. Quality Assurance process and validation
-
-5. Trying to resolve data constraints
+4. Show the relevant of this data to supply the answers to question to help this business to thrive
 
 ## Process
 ### (your step 1) 
@@ -29,9 +31,9 @@
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
 
-1. The data reveals how a company can get information on which places get the most revenue.
+1. The data reveals how a business can get information on which places get the most revenue.
 
-2. The  data can show the company which product sells the most and what location buys certain products the most.
+2. The  data can show the business which product sells the most and what location buys certain products the most.
 
 3. The data can show which site are visited and how long a user makes a choice one a selection
 
