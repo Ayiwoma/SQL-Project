@@ -29,7 +29,7 @@ The data can show how long it takes a product to be restocked.
 
 Figuring the required information that is needed to get the specific results needed.
 Some of the columns had empty cells which made filtering difficult
-Some of the data w
+
 
 ## Future Goals
 (what would you do if you had more time?)
