@@ -7,7 +7,9 @@ Limit 10
 
 Answer: 
 This shows the ratio to total_order from sales_report.
+
 Looking at this bar chart shows more quantities ordered did not have an effect on ratio of sales.
+
 sample size of 10
 
 
@@ -25,7 +27,9 @@ ORDER BY name,  restocking_lead_time DESC
 
 Answer:
 This shows the restocking lead time for each product.
+
 The picture show the stock level for each product did not affect the restocking lead time
+
 sample size of 10
 
 ![image](https://github.com/Ayiwoma/SQL-Project/assets/141646278/58e45a19-8877-4a13-86ac-65942da04cc4)
@@ -41,7 +45,9 @@ ORDER by time
 limit 10
 
 
-Answer: This shows the time visited on each page title from all_sessions
+Answer: 
+This shows the time visited on each page title from all_sessions
+
 sample size of 10
 
 
