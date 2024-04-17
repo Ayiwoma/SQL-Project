@@ -7,6 +7,10 @@
 
 3. Provide answers to relevant questions
 
+4. Quality Assurance process and validation
+
+5. Trying to resolve data constraints
+
 ## Process
 ### (your step 1) 
 1. Create database, set up tables, create columns and input with relevant information from the data downloaded
