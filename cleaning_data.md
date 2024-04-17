@@ -16,3 +16,8 @@ Below, provide the SQL queries you used to clean your data.
 
    ![image](https://github.com/Ayiwoma/SQL-Project/assets/141646278/14e1ebca-2ddd-4cc0-8ec5-44370cf2e329)
 
+
+3. Filled the empty columns for ecommerce_action_option with null value
+
+||
+||
