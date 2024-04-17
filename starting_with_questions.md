@@ -81,11 +81,14 @@ Google Men’s 100% Cotton Short Sleeve Hero Tee White is one of the top selling
 **Question 5: Can we summarize the impact of revenue generated from each city/country?**
 
 SQL Queries:
-
-
+SELECT  city, country,   SUM(product_price * product_quantity) as revenue
+From all_sessions
+GROUP BY  city, country
+order by revenue asc, city, country
+limit 10
 
 Answer:
-
+The result from the query shows that the country with the most generated revenue is USA while the city with the most revenue was not revealed from this dataset. This shows that the company got most of his revenue from the USA.
 
 
 
