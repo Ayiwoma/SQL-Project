@@ -36,9 +36,11 @@
 ## Challenges 
 (discuss challenges you faced in the project)
 
-Figuring the required information that is needed to get the specific results needed.
+1.Figuring the required information that is needed to get the specific results needed. E.g Some of the city cells were empty and thus
+getting a specific decision pending to each city was difficult.
 
-Some of the columns had empty cells which made filtering difficult
+2.Some of the columns had empty cells which made filtering difficult, generating revenue that was supplied but with more empty cells than
+filled cells.
 
 
 ## Future Goals
