@@ -9,7 +9,7 @@
 
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
-
+The data reveals how a company can get information on which places get the most revenue, the 
 ## Challenges 
 (discuss challenges you faced in the project)
 
