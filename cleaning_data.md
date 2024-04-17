@@ -8,6 +8,11 @@ What issues will you address by cleaning the data?
 Queries:
 Below, provide the SQL queries you used to clean your data.
 
-1. SELECT NULLIF(city, ‘ ‘) AS city FROM all_sessions;
+1. SELECT NULLIF(city, ' ') AS city FROM all_sessions;
+   
+![image](https://github.com/Ayiwoma/SQL-Project/assets/141646278/a4b6ef7b-2354-4c88-8d29-cd80d1ec702a)
 
 2. SELECT CAST(TO_TIMESTAMP(time) AS time) FROM all_sessions
+
+   ![image](https://github.com/Ayiwoma/SQL-Project/assets/141646278/14e1ebca-2ddd-4cc0-8ec5-44370cf2e329)
+
