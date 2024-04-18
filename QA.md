@@ -10,8 +10,8 @@ Describe your QA process and include the SQL queries used to execute it.
 
    a.SQL Queries
    
-  	SELECT full_visitor_id
-  	FROM all_sessions
+  	```SELECT full_visitor_id
+  	FROM all_sessions```
 
   	Results = 15,134
 
@@ -33,8 +33,8 @@ Describe your QA process and include the SQL queries used to execute it.
      
      b.	SQL Queries
      
-     SELECT COUNT( DISTINCT full_visitor_id)
-     FROM all_sessions
+     ```SELECT COUNT( DISTINCT full_visitor_id)
+     FROM all_sessions```
      
   	  Results 14,223
 
@@ -53,10 +53,10 @@ Describe your QA process and include the SQL queries used to execute it.
 
 SQL Queries
 
-     SELECT v2_product_name
+     ```SELECT v2_product_name
      FROM all_sessions
      WHERE v2_product_name LIKE 'Google%'
-     LIMIT 10
+     LIMIT 10```
 
      Results
 
@@ -82,11 +82,11 @@ SQL Queries
 
  SQL Queries
  
-SELECT DISTINCT al.full_visitor_id
+```SELECT DISTINCT al.full_visitor_id
 
 FROM all_sessions al
 
-JOIN analytics an USING (full_visitor_id)
+JOIN analytics an USING (full_visitor_id)```
 
 |full_visitor_id                               |
 |----------------------------------------------|
