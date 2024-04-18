@@ -87,7 +87,7 @@ filled cells.
 
 
 ## Future Goals
-(what would you do if you had more time?)
+If I had more time I would l better utilised the data provide to do some of the listed below.
 
 1. Clean up the presentation of many of the data, so that they are more presentable to the recipient of the information.
    
