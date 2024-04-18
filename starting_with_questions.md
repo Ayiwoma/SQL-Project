@@ -5,7 +5,7 @@ Answer the following questions and provide the SQL queries used to find the answ
 
 SQL Queries:
 
-SELECT  city,   
+```SELECT  city,   
 
 	SUM(product_quantity * product_price) AS total_revenue
 
@@ -17,7 +17,7 @@ GROUP BY city
 
 ORDER BY SUM(product_quantity * product_price) DESC
 
-LIMIT 10
+LIMIT 10```
 
 
 Answer:
@@ -40,7 +40,7 @@ Results by cities
 
 SQL queries
 
-SELECT  country,   
+```SELECT  country,   
 
 	SUM(product_quantity * product_price) AS total_revenue
 
@@ -52,7 +52,7 @@ GROUP BY country
 
 ORDER BY SUM(product_quantity * product_price) DESC
 
-LIMIT 10
+LIMIT 10```
 
 Result by countries
 
@@ -76,7 +76,7 @@ Result by countries
 
 SQL Queries:
 
-SELECT  al.city,   
+```SELECT  al.city,   
 
 	ROUND(AVG(p.ordered_quantity), 2) AS average_quantity_ordered
 
@@ -92,7 +92,7 @@ GROUP BY  al.city
 
 ORDER BY  al.city
 
-LIMIT 10
+LIMIT 10```
 
 Answer:
 This query generates the average quantity ordered per city, followed by country. 
@@ -119,7 +119,7 @@ Results for city
 Results for country
 SQL Queries
 
-SELECT  al.country,
+```SELECT  al.country,
 
 	ROUND(AVG(p.ordered_quantity),2)
  
@@ -135,7 +135,7 @@ GROUP BY  al.country
 
 ORDER BY  al.country
 
-LIMIT 10
+LIMIT 10```
 
 |country                      |average_quantity_ordered|
 |-----------------------------|------------------------|
@@ -158,7 +158,7 @@ LIMIT 10
 
 SQL Queries:
 
-SELECT  v2_product_category, 
+```SELECT  v2_product_category, 
 
 	al.city,  
  
@@ -173,7 +173,7 @@ GROUP BY v2_product_category, al.city
 
 ORDER BY MAX(ordered_quantity) DESC
 
-LIMIT 10
+LIMIT 10```
 
 Answer:
 The pattern shows that most products are ordered from the Home/Accessories/Fun from visitors to a city, which is the same as to a country too.
@@ -199,7 +199,7 @@ Results by country
 
 SQL Queries
 
-SELECT  v2_product_category, 
+```SELECT  v2_product_category, 
 
 	al.country,  
  
@@ -214,7 +214,7 @@ GROUP BY v2_product_category, al.country
 
 ORDER BY MAX(ordered_quantity) DESC
 
-LIMIT 10
+LIMIT 10```
 
 |v2_product_category          |country   |orderedquantity|
 |-----------------------------|----------|---------------|
@@ -237,7 +237,7 @@ LIMIT 10
 
 SQL Queries:
 
-SELECT   v2_product_name,
+```SELECT   v2_product_name,
 
 	 al.city, 
  
@@ -258,7 +258,7 @@ GROUP BY v2_product_name,
 ORDER BY SUM(product_quantity * product_price) DESC 
 	
  
-LIMIT 5
+LIMIT 5```
 
 
 Answer:
@@ -277,8 +277,9 @@ Results by city
 
 
 
+Results for country
 
-SELECT  v2_product_name,
+```SELECT  v2_product_name,
 
 	al.country, 
  
@@ -298,10 +299,10 @@ GROUP BY v2_product_name,
 
 ORDER by  SUM(product_quantity * product_price) DESC 
 
-LIMIT 5
+LIMIT 5```
 
 
-Results for country 
+
 
 |v2_product_name              |country   |top_selling_product|
 |-----------------------------|----------|-------------------|
@@ -317,7 +318,7 @@ Results for country
 
 **Question 5: Can we summarize the impact of revenue generated from each city/country?**
 
-SELECT    city,
+```SELECT    city,
  
 	  SUM(al.product_price * al.product_quantity) as revenue, 
    
@@ -340,7 +341,7 @@ Group BY  city, sentiment_score
 	
 ORDER BY SUM(al.product_price * al.product_quantity) DESC
 
-LIMIT 10
+LIMIT 10```
 
 Answer:
 
@@ -366,7 +367,7 @@ For cities
 
 For countries
 
-SELECT    country,
+```SELECT    country,
  
 	SUM(al.product_price * al.product_quantity) as revenue, sentiment_score
 
@@ -387,7 +388,7 @@ Group by  country, sentiment_score
 	
 ORDER BY SUM(al.product_price * al.product_quantity) DESC
 
-LIMIT 10
+LIMIT 10```
 
 |country                      |revenue   |sentiment_score|
 |-----------------------------|----------|---------------|
