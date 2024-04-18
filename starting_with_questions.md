@@ -6,9 +6,9 @@ Answer the following questions and provide the SQL queries used to find the answ
 SQL Queries:
 
 
-```SELECT  city,   
+```SELECT  city,
 
-	SUM(product_quantity * product_price) AS total_revenue
+	   SUM(product_quantity * product_price) AS total_revenue
 
 FROM all_sessions
 
