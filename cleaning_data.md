@@ -27,11 +27,6 @@ Below, provide the SQL queries you used to clean your data.
 |not available in demo dataset|
 |Sydney             |
 |Philadelphia       |
-|not available in demo dataset|
-|not available in demo dataset|
-|not available in demo dataset|
-|not available in demo dataset|
-|not available in demo dataset|
 
 
 
@@ -60,13 +55,7 @@ Below, provide the SQL queries you used to clean your data.
 |18:00:00           |
 |18:00:00           |
 |11:53:10           |
-|18:00:00           |
-|01:21:28           |
-|18:00:00           |
-|00:58:32           |
-|19:07:26           |
-|08:29:05           |
-|18:00:00           |
+
 
 
 3. Filled the empty columns for ecommerce_action_option with null value
@@ -77,12 +66,6 @@ Result
 
 |ecommerceoptions   |
 |-------------------|
-|NULL               |
-|NULL               |
-|NULL               |
-|NULL               |
-|NULL               |
-|NULL               |
 |NULL               |
 |NULL               |
 |NULL               |
