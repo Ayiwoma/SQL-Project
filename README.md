@@ -5,9 +5,9 @@ The goal of this project is to create a database on pgadmin4, set up tables for 
 
 In carrying out this project I aim to do the following
 
-1. Answer questions asked about this data and present this in the best possible way
+1. Answer questions asked about this data and present this in the best possible way, so that it provides value to the receiver.
    
-2. Generate my own questions from the data supplied to 
+2. Generate my own questions from the data supplied to show that the data can provide as many possible scenarios that can help a business increase revenue , save costs and focus on the right products
    
 3. Cleaning the data, which includes filling columns where the data is null, checking for duplicates in all the tables created.
 
