@@ -34,7 +34,7 @@ Results by cities
 |New York                                           |590560000    |
 |Salem                                              |639360000    |
 |Mountain View                                      |785970000    |
-|not available in demo dataset                      |2388720000   |
+
 
 SQL queries
 SELECT country, SUM(product_quantity * product_price) AS total_revenue
@@ -209,17 +209,6 @@ Results by city
 |Google Sunglasses                                        |Chicago                      |2800000            |
 |Four Color Retractable Pen                               |not available in demo dataset|2990000            |
 |Google 22 oz Water Bottle                                |Detroit                      |2990000            |
-|YouTube Leatherette Notebook Combo                       |Dallas                       |6990000            |
-|Google Sunglasses                                        |Houston                      |7000000            |
-|Google Twill Cap                                         |not available in demo dataset|10990000           |
-|YouTube Twill Cap                                        |not available in demo dataset|10990000           |
-|Google Men's Bike Short Sleeve Tee Charcoal              |Mountain View                |15990000           |
-|YouTube Men's Short Sleeve Hero Tee Black                |not available in demo dataset|16990000           |
-|YouTube Men's Short Sleeve Hero Tee White                |New York                     |16990000           |
-|Android Wool Heather Cap Heather/Black                   |not available in demo dataset|17490000           |
-|Google Men's Short Sleeve Badge Tee Charcoal             |Columbus                     |18990000           |
-|Google Men's Vintage Badge Tee Black                     |Ann Arbor                    |18990000           |
-|Google Youth Short Sleeve T-shirt Green                  |not available in demo dataset|18990000           |
 |Android Wool Heather Cap Heather/Black                   |(not set)                    |24990000           |
 |Google Men's Long Sleeve Raglan Ocean Blue               |not available in demo dataset|24990000           |
 |Google Men's 100% Cotton Short Sleeve Hero Tee White     |New York                     |30580000           |
@@ -277,19 +266,6 @@ Results for country
 |YouTube Men's Short Sleeve Hero Tee White     |United States                |16990000           |
 |Android Wool Heather Cap Heather/Black        |France                       |17490000           |
 |Google Men's Short Sleeve Badge Tee Charcoal  |United States                |18990000           |
-|Google Men's Vintage Badge Tee Black          |United States                |18990000           |
-|Google Youth Short Sleeve T-shirt Green       |Canada                       |18990000           |
-|Android Wool Heather Cap Heather/Black        |United States                |24990000           |
-|Google Men's Long Sleeve Raglan Ocean Blue    |United States                |24990000           |
-|Google Men's 100% Cotton Short Sleeve Hero Tee White|United States                |30580000           |
-|Google Men's Pullover Hoodie Grey             |United States                |51990000           |
-|Google Men's  Zip Hoodie                      |United States                |55990000           |
-|Google Bongo Cupholder Bluetooth Speaker      |United States                |59990000           |
-|Google Women's Quilted Insulated Vest Black   |United States                |74990000           |
-|Waze Dress Socks                              |Spain                        |89900000           |
-|Google Women's Convertible Vest-Jacket Black  |United States                |98990000           |
-|Google Alpine Style Backpack                  |Argentina                    |99990000           |
-|Google Laptop Backpack                        |Ireland                      |99990000           |
 |Nest® Protect Smoke + CO White Battery Alarm-USA|United States                |119000000          |
 |Nest® Protect Smoke + CO White Wired Alarm-USA|United States                |317000000          |
 |Nest® Cam Indoor Security Camera - USA        |United States                |556000000          |
