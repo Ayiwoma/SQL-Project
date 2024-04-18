@@ -5,13 +5,13 @@ The goal of this project is to create a database on pgadmin4, set up tables for 
 
 In carrying out this project I aim to do the following
 
-1. Answer questions asked about this data
+1. Answer questions asked about this data and present this in the best possible way
    
-2. Generate my own questions from the data supplied.
+2. Generate my own questions from the data supplied to 
    
 3. Cleaning the data, which includes filling columns where the data is null, checking for duplicates in all the tables created.
 
-4. Show the relevant of this data to supply the answers to question to help this business to thrive
+4. Show the relevance of this data to supply the answers to question to help a business make decisions.
 
 ## Process
 ### (your step 1) 
@@ -22,11 +22,11 @@ In carrying out this project I aim to do the following
 3. Filtering and cleaning data to enable choice of what is useful, relevant to the serve the purpose for which it is needed.
 
 ### (your step 2)
-1. Use SQL queries to retrieve the data to answer questions that can help the company better under the business
+1. Use SQL queries to retrieve the data to answer questions that can help the company better under the business, by using one column, one table or several combinations of columns and tables
 
-2. Use SQL queries to retrievethe data to help with trends that affected the business.
+2. Use SQL queries to retrieve the data to help show trends that affects this business.
 
-3. Use SQL queries to retrievethe data to answer questions that are needed to make important decisions to improve the business of the company.
+3. Use SQL queries to retrieve the data to answer questions that are needed to make important decisions to improve the business of the company.
 
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
@@ -52,8 +52,8 @@ filled cells.
 ## Future Goals
 (what would you do if you had more time?)
 
-1. Clean up the presentation of many of the columns, so that they are more presentable to the reader.
+1. Clean up the presentation of many of the columns, so that they are more presentable to the recipient of the information.
    
-2. Arrange the data so that the empty columns will filled with information that will better explain the situation of that particular column instead it being null
+2. Arrange the data so that the empty columns will be filled with information that will better explain the situation of each column 
  
 3. Calculate some of the columns that had revenue and fill them with the needed information
