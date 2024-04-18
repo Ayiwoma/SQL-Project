@@ -8,8 +8,12 @@ Describe your QA process and include the SQL queries used to execute it.
 1.	One of the observations made is, in the table for all_sessions , the column full_visitor_id must have some value that are not distinct from the SQL Queries done.
    When the queries was done the results gotten was 15,134 rows as against when it was done with searching for unique values which brought about 14,223 rows.
 
-     a.	SELECT full_visitor_id FROM all_sessions
-  	      Results = 15,134
+   a.SQL Queries
+   
+  	SELECT full_visitor_id
+  	FROM all_sessions
+
+  	Results = 15,134
 
 |full_visitor_id    |
 |-------------------|
@@ -27,8 +31,12 @@ Describe your QA process and include the SQL queries used to execute it.
 
 
      
-     b.	SELECT COUNT( DISTINCT full_visitor_id) FROM all_sessions
-  	      Results 14,223
+     b.	SQL Queries
+     
+     SELECT COUNT( DISTINCT full_visitor_id)
+     FROM all_sessions
+     
+  	  Results 14,223
 
    Results
 
@@ -44,6 +52,7 @@ Describe your QA process and include the SQL queries used to execute it.
    
 
 SQL Queries
+
      SELECT v2_product_name
      FROM all_sessions
      WHERE v2_product_name LIKE 'Google%'
@@ -72,8 +81,11 @@ SQL Queries
     there is obviouslt a relatiionship between them, which can be used to generate information and create a relationship.
 
  SQL Queries
- SELECT DISTINCT al.full_visitor_id
+ 
+SELECT DISTINCT al.full_visitor_id
+
 FROM all_sessions al
+
 JOIN analytics an USING (full_visitor_id)
 
 |full_visitor_id                               |
