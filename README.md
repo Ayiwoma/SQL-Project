@@ -35,7 +35,22 @@ In carrying out this project I aim to do the following
 
 1. The data reveals how a business can get information on which places get the most revenue.
 
+   
+
+
+
+![pie chart revenue](https://github.com/Ayiwoma/SQL-Project/assets/141646278/2b1dfecf-383e-4352-9ddb-90f50906ac06)
+
+
+   
+
 2. The  data can show the business which product sells the most and what location buys certain products the most.
+
+
+
+
+
+
 
 3. The data can show which site are visited and how long a user makes a choice one a selection
 
