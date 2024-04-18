@@ -5,7 +5,8 @@ Being unable to identify the values that are not unique in a table like full_vis
 QA Process:
 Describe your QA process and include the SQL queries used to execute it.
 
-1.	One of the observations made is that in the table for all_sessions , the column full_visitor_id must have some value that are not distinct from the SQL Queries done.
+1.	One of the observations made is, in the table for all_sessions , the column full_visitor_id must have some value that are not distinct from the SQL Queries done.
+   When the queries was done the results gotten was 15,134 rows as against when it was done with searching for unique values which brought about 14,223 rows.
 
      a.	SELECT full_visitor_id FROM all_sessions
   	      Results = 15,134
@@ -38,7 +39,9 @@ Describe your QA process and include the SQL queries used to execute it.
   
 
 
-3.	I did a filter on v2_product_name to test case sensitive search.
+2.	I did a filter on v2_product_name to test case sensitive search, this was done to test the quality of the data to see if it could generate a name sensitive search, in doing so the results turned out to be           positive and consistent.
+
+   
 
 SQL Queries
      SELECT v2_product_name
@@ -65,7 +68,8 @@ SQL Queries
   
 
 
-4. Combined multiple tables to get results for the column full_visitor_id
+4. I decided to combined multiple tables to get results for the column full_visitor_id, to show the relationship between both tables and even though the data is in separate tables,
+    there is obviouslt a relatiionship between them, which can be used to generate information and create a relationship.
 
  SQL Queries
  SELECT DISTINCT al.full_visitor_id
