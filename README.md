@@ -1,7 +1,7 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-The goal of this project is to create a database on pgadmin4, set up tables for the downloaded csv file, and finally create columns.
+The goal of this project is to use the ecommerce API to show how the information supplied can help with provinding solutions to this business by looking at visitors spending habits in the city/country visited and also preferred products. This project will also observe the following patterns of customers shopping online and how it affects the business.
 
 In carrying out this project I aim to do the following
 
@@ -13,6 +13,7 @@ In carrying out this project I aim to do the following
 
 4. Show the relevance of this data to supply the answers to question to help a business make decisions.
 
+
 ## Process
 ### (your step 1) 
 1. Create database, set up tables, create columns and input with relevant information from the data downloaded
@@ -22,6 +23,7 @@ In carrying out this project I aim to do the following
 3. Filtering and cleaning data to enable choice of what is useful, relevant to the serve the purpose for which it is needed.
 
 ### (your step 2)
+
 1. Use SQL queries to retrieve the data to answer questions that can help the company better under the business, by using one column, one table or several combinations of columns and tables
 
 2. Use SQL queries to retrieve the data to help show trends that affects this business.
