@@ -3,10 +3,16 @@ Answer the following questions and provide the SQL queries used to find the answ
     
 **Question 1: Which cities and countries have the highest level of transaction revenues on the site?**
 
-SQL Queries: 
-SELECT city, SUM(product_quantity * product_price) AS total_revenue
+SQL Queries:
+
+SELECT city, 
+
+	SUM(product_quantity * product_price) AS total_revenue
+ 
 FROM all_sessions 
+
 GROUP BY city
+
 ORDER BY SUM(product_quantity * product_price) 
 
 Answer:
@@ -37,7 +43,11 @@ Results by cities
 
 
 SQL queries
-SELECT country, SUM(product_quantity * product_price) AS total_revenue
+
+SELECT country, 
+
+	SUM(product_quantity * product_price) AS total_revenue
+ 
 FROM all_sessions 
 
 GROUP BY country
@@ -64,12 +74,22 @@ Result by countries
 
 
 SQL Queries:
-SELECT     al.city,    ROUND(AVG(p.ordered_quantity), 2) AS average_quantity_ordered
+
+SELECT  al.city,   
+
+	ROUND(AVG(p.ordered_quantity), 2) AS average_quantity_ordered
+
 FROM     all_sessions al
+
 JOIN 
-    products p ON al.product_sku = p."SKU"
-GROUP BY     al.city
-ORDER BY al.city; 
+
+    products p 
+    
+    ON al.product_sku = p."SKU"
+    
+GROUP BY  al.city
+
+ORDER BY  al.city; 
 
 Answer:
 This query generates the average quantity ordered per city, followed by country. 
@@ -104,13 +124,21 @@ Results for city
 Results for country
 SQL Queries
 
-SELECT     al.country,    ROUND(AVG(p.ordered_quantity),2)
-AS average_quantity_ordered								
-FROM     all_sessions al
+SELECT  al.country,
+
+	ROUND(AVG(p.ordered_quantity),2)
+ 
+	AS average_quantity_ordered	
+ 
+FROM    all_sessions al
+
 JOIN 
-    products p ON al.product_sku = p."SKU"
-GROUP BY     al.country
-ORDER BY al.country; 
+
+    	products p ON al.product_sku = p."SKU"
+    
+GROUP BY  al.country
+
+ORDER BY  al.country; 
 
 |country             |average_quantity_ordered|
 |--------------------|------------------------|
@@ -144,10 +172,20 @@ ORDER BY al.country;
 
 
 SQL Queries:
-SELECT  v2_product_category, al.city,   MAX(ordered_quantity) AS orderedquantity
+
+SELECT  v2_product_category, 
+
+	al.city,  
+ 
+ 	MAX(ordered_quantity) AS orderedquantity
+  
 FROM     all_sessions al
-JOIN     products p ON al.product_sku = p."SKU"
+
+JOIN     products p
+	ON al.product_sku = p."SKU"
+ 
 GROUP BY v2_product_category, al.city
+
 ORDER BY MAX(ordered_quantity) DESC
 
 Answer:
@@ -190,12 +228,24 @@ Results by country
 
 
 SQL Queries:
-SELECT   v2_product_name, al.city, 
-    SUM(product_quantity * product_price) AS top_selling_product
+
+SELECT  v2_product_name,
+
+	al.city, 
+ 
+ 	SUM(product_quantity * product_price) AS top_selling_product
+  
 FROM     all_sessions al
+
 JOIN     products p ON al.product_sku = p."SKU"
-GROUP BY v2_product_name,  al.city 
-ORDER by SUM(product_quantity * product_price),  v2_product_name 
+
+GROUP BY v2_product_name,  
+	
+ 	al.city 
+
+ORDER by SUM(product_quantity * product_price), 
+	
+ 	v2_product_name 
 
 
 Answer:
@@ -239,15 +289,25 @@ Results by city
 
 
 
-SELECT   v2_product_name, al.country, 
-    SUM(product_quantity * product_price) AS top_selling_product
+SELECT  v2_product_name, al.country, 
+
+    	SUM(product_quantity * product_price) AS top_selling_product
+     
 FROM 
-    all_sessions al
+    	all_sessions al
+     
 JOIN 
-    products p ON al.product_sku = p."SKU"
-GROUP BY 
-	v2_product_name, al.country 
-   	ORDER by SUM(product_quantity * product_price),  v2_product_name 
+    	products p 
+     
+     	ON al.product_sku = p."SKU"
+      
+GROUP BY v2_product_name,
+
+	al.country 
+ 
+ORDER by SUM(product_quantity * product_price),  
+
+	v2_product_name 
 
 
 Results for country 
@@ -280,11 +340,22 @@ Results for country
 
 **Question 5: Can we summarize the impact of revenue generated from each city/country?**
 
-SELECT  sentiment_score, sentiment_magnitude,   
-SUM(al.product_price * al.product_quantity) as revenue
-FROM products p
-FULL OUTER JOIN all_sessions al ON "SKU" = full_visitor_id
-Group by sentiment_score, sentiment_magnitude
+SELECT  sentiment_score, 
+
+	sentiment_magnitude,  
+ 
+	SUM(al.product_price * al.product_quantity) as revenue
+ 
+FROM 	products p
+
+FULL OUTER JOIN all_sessions al 
+
+	ON "SKU" = full_visitor_id
+ 
+Group by sentiment_score, 
+	
+ 	sentiment_magnitude
+  
 ORDER BY sentiment_score DESC
 
 Answer:
