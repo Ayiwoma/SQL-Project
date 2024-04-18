@@ -53,6 +53,16 @@ In carrying out this project I aim to do the following
 
 
 
+
+
+3. Data reveals the ratio of restocking to total order
+
+
+![image](https://github.com/Ayiwoma/SQL-Project/assets/141646278/369ea905-4a93-478e-b836-eaa1d7bfc912)
+
+
+
+
 4. The data can show which site are visited and how long a user makes a choice one a selection
 
 
@@ -72,6 +82,8 @@ The challenges face in executing this project includes some as listed below
 
 3. Some of the columns had empty cells which made filtering difficult, generating revenue that was supplied but with more empty cells than
 filled cells.
+
+4. Running the data from the table analytics took more time than other tables, which slowed down the process.
 
 
 ## Future Goals
