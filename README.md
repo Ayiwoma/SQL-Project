@@ -1,13 +1,13 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-The goal of this project is to use the ecommerce API to show how the information supplied can help with provinding solutions to this business by looking at visitors spending habits in the city/country visited and also preferred products. This project will also observe the following patterns of customers shopping online and how it affects the business.
+The goal of this project is to use the ecommerce API to show how the information supplied can help with provinding solutions to this business by looking at visitors spending habits in the city/country visited and also preferred products. This project will also observe the following patterns of customers shopping online and how it affects this business.
 
 In carrying out this project I aim to do the following
 
 1. Answer questions asked about this data and present this in the best possible way, so that it provides value to the receiver.
    
-2. Generate my own questions from the data supplied to show that the data can provide as many possible scenarios that can help a business increase revenue , save costs and focus on the right products
+2. Generate additonal questions from the data supplied to show that the data can provide as many possible scenarios that can help a business increase revenue , save costs and focus on the right products
    
 3. Cleaning the data, which includes filling columns where the data is null, checking for duplicates in all the tables created.
 
@@ -44,18 +44,23 @@ In carrying out this project I aim to do the following
 ## Challenges 
 (discuss challenges you faced in the project)
 
-1. Figuring the required information that is needed to get the specific results needed. E.g Some of the city cells were empty and thus
-getting a specific decision pending to each city was difficult.
+The challenges face in executing this project includes some as listed below
 
-2. Some of the columns had empty cells which made filtering difficult, generating revenue that was supplied but with more empty cells than
+1. Reducing the sample size as some of the data collected had null figures.
+
+2. Filtering the data so that the running the API it will generate specific information as regards location like city/country.
+
+3. 
+
+4. Some of the columns had empty cells which made filtering difficult, generating revenue that was supplied but with more empty cells than
 filled cells.
 
 
 ## Future Goals
 (what would you do if you had more time?)
 
-1. Clean up the presentation of many of the columns, so that they are more presentable to the recipient of the information.
+1. Clean up the presentation of many of the data, so that they are more presentable to the recipient of the information.
    
-2. Arrange the data so that the empty columns will be filled with information that will better explain the situation of each column 
+2. Collate additional information to enable there be a comprehensive sample to be presented.
  
 3. Calculate some of the columns that had revenue and fill them with the needed information
