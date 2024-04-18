@@ -2,13 +2,13 @@ Question 1: What is the ratio to total order from sales report?
 
 SQL Queries: 
 
-SELECT Round(ratio, 2) as ratio, 
+```SELECT Round(ratio, 2) as ratio, 
 
 total_order FROM sales_report
 
 ORDER BY total_order DESC
 
-Limit 10
+Limit 10```
 
 Answer: 
 This shows the ratio to total_order from sales_report.
@@ -41,7 +41,7 @@ Question 2: What is the restocking lead time for each product?
 
 SQL Queries: 
 
-  SELECT  name,  
+ ```SELECT  name,  
   
           stock_level, 
           
@@ -51,7 +51,7 @@ SQL Queries:
 
   ORDER BY name, 
   
-          restocking_lead_time DESC
+          restocking_lead_time DESC```
 
 Answer:
 This shows the restocking lead time for each product.
@@ -91,7 +91,7 @@ Question 3: Show unique page title from all sessions and time spent on site?
 
 SQL Queries: 
 
-SELECT  DISTINCT(page_title), 
+```SELECT  DISTINCT(page_title), 
 
         Coalesce(To_Timestamp(time_on_site)) time 
 
@@ -103,7 +103,7 @@ WHERE page_title IS NOT NULL
       
 ORDER by time 
 
-limit 10
+limit 10```
 
 
 Answer: 
