@@ -49,12 +49,17 @@ In carrying out this project I aim to do the following
 
 
 
+![top selling product](https://github.com/Ayiwoma/SQL-Project/assets/141646278/2e8f9413-8a9c-47ff-8ef3-bfcacf18b568)
 
 
 
-3. The data can show which site are visited and how long a user makes a choice one a selection
+4. The data can show which site are visited and how long a user makes a choice one a selection
 
-4. The data can show how long it takes a product to be restocked.
+
+
+   
+
+5. The data can show how long it takes a product to be restocked.
 
 ## Challenges 
 (discuss challenges you faced in the project)
