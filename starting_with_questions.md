@@ -5,6 +5,7 @@ Answer the following questions and provide the SQL queries used to find the answ
 
 SQL Queries:
 
+
 ```SELECT  city,   
 
 	SUM(product_quantity * product_price) AS total_revenue
