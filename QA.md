@@ -12,7 +12,7 @@ Describe your QA process and include the SQL queries used to execute it.
    
   	```SELECT COUNT(full_visitor_id )
    
- FROM    all_sessions```
+       FROM    all_sessions```
 
 |count                        |
 |-----------------------------|
@@ -26,9 +26,9 @@ Describe your QA process and include the SQL queries used to execute it.
      
      ```SELECT COUNT( DISTINCT full_visitor_id)
      
-     FROM all_sessions```
+        FROM all_sessions```
      
-  	  Results 14,223
+  	  
 
    Results
 
@@ -56,18 +56,19 @@ SQL Queries
 
      Results
 
-     |v2_product_name                               |
-     |----------------------------------------------|
-     |Google 22 oz Water Bottle                     |
-     |Google Women's Convertible Vest-Jacket Sea Foam Green|
-     |Google Wool Heather Cap Heather/Navy          |
-     |Google Bluetooth Speaker-Power Bank           |
-     |Google Women's 1/4 Zip Jacket Charcoal        |
-     |Google Men's 100% Cotton Short Sleeve Hero Tee Navy|
-     |Google Infant Zip Hood Royal Blue             |
-     |Google Men's Vintage Tank                     |
-     |Google Heavyweight Long Sleeve Hero Tee Navy  |
-     |Google Bib White                              |
+|v2_product_name              |
+|-----------------------------|
+|Google 22 oz Water Bottle    |
+|Google Women's Convertible Vest-Jacket Sea Foam Green|
+|Google Wool Heather Cap Heather/Navy|
+|Google Bluetooth Speaker-Power Bank|
+|Google Women's 1/4 Zip Jacket Charcoal|
+|Google Men's 100% Cotton Short Sleeve Hero Tee Navy|
+|Google Infant Zip Hood Royal Blue|
+|Google Men's Vintage Tank    |
+|Google Heavyweight Long Sleeve Hero Tee Navy|
+|Google Bib White             |
+
 
 
   
@@ -80,25 +81,27 @@ SQL Queries
  
 ```SELECT DISTINCT al.full_visitor_id
 
-FROM all_sessions al
+   FROM all_sessions al
 
-JOIN analytics an
+   JOIN analytics an
 
-USING (full_visitor_id)```
+   USING (full_visitor_id)
 
-|full_visitor_id                               |
-|----------------------------------------------|
-|5050299044657579745                           |
-|1382031825972533734                           |
-|8505858323470957238                           |
-|2304081328443448245                           |
-|7144024074762786741                           |
-|7861840397776577591                           |
-|4215347458239853405                           |
-|9018043587410138353                           |
-|0385264926912597060                           |
-|3021691607631354046                           |
-|3378915086342051274                           |
+   LIMIT 10```
+
+|full_visitor_id              |
+|-----------------------------|
+|5050299044657579745          |
+|1382031825972533734          |
+|8505858323470957238          |
+|2304081328443448245          |
+|7144024074762786741          |
+|7861840397776577591          |
+|4215347458239853405          |
+|9018043587410138353          |
+|0385264926912597060          |
+|3021691607631354046          |
+
 
 
 
