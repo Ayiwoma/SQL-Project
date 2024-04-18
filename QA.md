@@ -77,7 +77,7 @@ SQL Queries
   
 
 
-4. I decided to combined multiple tables to get results for the column full_visitor_id, to show the relationship between both tables and even though the data is in separate tables,
+3. I decided to combined multiple tables to get results for the column full_visitor_id, to show the relationship between both tables and even though the data is in separate tables,
     there is obviouslt a relatiionship between them, which can be used to generate information and create a relationship.
 
  SQL Queries
