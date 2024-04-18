@@ -32,9 +32,10 @@ Describe your QA process and include the SQL queries used to execute it.
 
    Results
 
-     |count                                         |
-     |----------------------------------------------|
-     |14223                                         |
+   |count                        |
+   |-----------------------------|
+   |14223                        |
+
 
   
 
