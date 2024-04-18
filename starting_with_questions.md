@@ -317,43 +317,90 @@ Results for country
 
 **Question 5: Can we summarize the impact of revenue generated from each city/country?**
 
-SELECT  sentiment_score, 
-
-	sentiment_magnitude,  
+SELECT    city,
  
-	SUM(al.product_price * al.product_quantity) as revenue
+	  SUM(al.product_price * al.product_quantity) as revenue, 
+   
+   	  sentiment_score
+
+	
+ 
+FROM 	  products p
+
+FULL OUTER JOIN all_sessions al 
+
+	ON "SKU" = full_visitor_id
+	
+WHERE    (al.product_price * al.product_quantity) IS NOT NULL 
+	
+	
+ 
+Group BY  city, sentiment_score 
+
+	
+ORDER BY SUM(al.product_price * al.product_quantity) DESC
+
+LIMIT 10
+
+Answer:
+
+The result from the query shows the cities/countries that had the most impact on revenue.
+
+Results
+
+For cities
+
+|city                         |revenue   |sentiment_score|
+|-----------------------------|----------|---------------|
+|not available in demo dataset|2388720000|               |
+|Mountain View                |785970000 |               |
+|Salem                        |639360000 |               |
+|New York                     |590560000 |               |
+|Sunnyvale                    |318000000 |               |
+|San Francisco                |268000000 |               |
+|San Jose                     |199000000 |               |
+|Palo Alto                    |149000000 |               |
+|Seattle                      |119000000 |               |
+|Dublin                       |99990000  |               |
+
+
+For countries
+
+SELECT    country,
+ 
+	SUM(al.product_price * al.product_quantity) as revenue, sentiment_score
+
+	
  
 FROM 	products p
 
 FULL OUTER JOIN all_sessions al 
 
 	ON "SKU" = full_visitor_id
- 
-Group by sentiment_score, 
 	
- 	sentiment_magnitude
-  
-ORDER BY sentiment_score DESC
+	WHERE  (al.product_price * al.product_quantity) IS NOT NULL 
+	
+	
+ 
+Group by  country, sentiment_score 
 
-Answer:
-The result from the query shows the relationship between sentiment score which shows postive impact of revenue to the sentiment magnitude which fluntuates between positive and negative
+	
+ORDER BY SUM(al.product_price * al.product_quantity) DESC
 
-Results
+LIMIT 10
 
-|sentiment_score                               |sentiment_magnitude          |revenue|
-|----------------------------------------------|-----------------------------|-------|
-|NULL                                          |NULL                         |5844030000|
-|1.0                                           |1.0                          |NULL   |
-|0.9                                           |1.4                          |NULL   |
-|0.9                                           |0.2                          |NULL   |
-|0.9                                           |1.3                          |NULL   |
-|0.9                                           |0.5                          |NULL   |
-|0.8                                           |1.9                          |NULL   |
-|0.8                                           |0.3                          |NULL   |
-|0.8                                           |2.0                          |NULL   |
-|0.8                                           |1.3                          |NULL   |
-|0.8                                           |0.4                          |NULL   |
-
+|country                      |revenue   |sentiment_score|
+|-----------------------------|----------|---------------|
+|United States                |5435730000|               |
+|Argentina                    |99990000  |               |
+|Ireland                      |99990000  |               |
+|Spain                        |89900000  |               |
+|Canada                       |47970000  |               |
+|France                       |17490000  |               |
+|Colombia                     |16990000  |               |
+|Mexico                       |16990000  |               |
+|India                        |16990000  |               |
+|Finland                      |1990000   |               |
 
 
 
