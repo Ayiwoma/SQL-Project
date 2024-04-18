@@ -1,14 +1,19 @@
 Question 1: What is the ratio to total order from sales report?
 
 SQL Queries: 
-SELECT Round(ratio, 2) as ratio, total_order FROM sales_report
+
+SELECT Round(ratio, 2) as ratio, 
+
+total_order FROM sales_report
+
 ORDER BY total_order DESC
+
 Limit 10
 
 Answer: 
 This shows the ratio to total_order from sales_report.
 
-Looking at this bar chart shows more quantities ordered did not have an effect on ratio of sales.
+Looking at this table shows more quantities ordered did not have an effect on ratio of sales.
 
 sample size of 10
 
@@ -35,14 +40,23 @@ Results
 Question 2: What is the restocking lead time for each product?
 
 SQL Queries: 
-SELECT  name,  stock_level, restocking_lead_time FROM products
 
-ORDER BY name,  restocking_lead_time DESC
+  SELECT  name,  
+  
+          stock_level, 
+          
+          restocking_lead_time 
+          
+  FROM products
+
+  ORDER BY name, 
+  
+          restocking_lead_time DESC
 
 Answer:
 This shows the restocking lead time for each product.
 
-The picture show the stock level for each product did not affect the restocking lead time
+The table shows the stock level for each product did not affect the restocking lead time
 
 sample size of 10
 
@@ -76,9 +90,19 @@ sample size of 10
 Question 3: Show unique page title from all sessions and time spent on site?
 
 SQL Queries: 
-SELECT  DISTINCT(page_title), Coalesce(To_Timestamp(time_on_site)) time FROM all_sessions
-WHERE page_title IS NOT NULL AND time_on_site IS NOT NULL
+
+SELECT  DISTINCT(page_title), 
+
+        Coalesce(To_Timestamp(time_on_site)) time 
+
+FROM all_sessions
+
+WHERE page_title IS NOT NULL 
+
+       AND time_on_site IS NOT NULL
+      
 ORDER by time 
+
 limit 10
 
 
