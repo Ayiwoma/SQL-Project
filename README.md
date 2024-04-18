@@ -48,11 +48,9 @@ The challenges face in executing this project includes some as listed below
 
 1. Reducing the sample size as some of the data collected had null figures.
 
-2. Filtering the data so that the running the API it will generate specific information as regards location like city/country.
+2. Filtering the data so that the running the API it will generate specific information as regards location like city/country. 
 
-3. 
-
-4. Some of the columns had empty cells which made filtering difficult, generating revenue that was supplied but with more empty cells than
+3. Some of the columns had empty cells which made filtering difficult, generating revenue that was supplied but with more empty cells than
 filled cells.
 
 
