@@ -7,9 +7,9 @@ Below, provide the SQL queries you used to clean your data.
 
 1. Modifications done to city column in all_sessions table to fill in the empty spaces and input as Null
 
-   SELECT NULLIF(city, ' ') AS city
+   ```SELECT NULLIF(city, ' ') AS city
    
-   FROM all_sessions;
+   FROM all_sessions;```
    
   Result 
   
@@ -35,9 +35,9 @@ Below, provide the SQL queries you used to clean your data.
 2 Modifications done to time column in all_sessions table to change the datatype to show as timestamp
 
    
-   SELECT CAST(TO_TIMESTAMP(time) AS time) 
+   ```SELECT CAST(TO_TIMESTAMP(time) AS time) 
    
-   FROM all_sessions
+   FROM all_sessions```
 
    Result 
 
@@ -64,9 +64,9 @@ Below, provide the SQL queries you used to clean your data.
 
    Filled the empty columns for ecommerce_action_option with null value
 
-   SELECT NULLIF(ecommerce_action_option, ' ') AS ecommerceoptions
+   ```SELECT NULLIF(ecommerce_action_option, ' ') AS ecommerceoptions
 
-   FROM all_sessions;
+   FROM all_sessions;```
 
 Result 
 
