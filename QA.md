@@ -31,9 +31,9 @@ Describe your QA process and include the SQL queries used to execute it.
 
    Results
 
-   |count                                         |
-|----------------------------------------------|
-|14223                                         |
+     |count                                         |
+     |----------------------------------------------|
+     |14223                                         |
 
   
 
@@ -49,17 +49,17 @@ SQL Queries
      Results
 
      |v2_product_name                               |
-|----------------------------------------------|
-|Google 22 oz Water Bottle                     |
-|Google Women's Convertible Vest-Jacket Sea Foam Green|
-|Google Wool Heather Cap Heather/Navy          |
-|Google Bluetooth Speaker-Power Bank           |
-|Google Women's 1/4 Zip Jacket Charcoal        |
-|Google Men's 100% Cotton Short Sleeve Hero Tee Navy|
-|Google Infant Zip Hood Royal Blue             |
-|Google Men's Vintage Tank                     |
-|Google Heavyweight Long Sleeve Hero Tee Navy  |
-|Google Bib White                              |
+     |----------------------------------------------|
+     |Google 22 oz Water Bottle                     |
+     |Google Women's Convertible Vest-Jacket Sea Foam Green|
+     |Google Wool Heather Cap Heather/Navy          |
+     |Google Bluetooth Speaker-Power Bank           |
+     |Google Women's 1/4 Zip Jacket Charcoal        |
+     |Google Men's 100% Cotton Short Sleeve Hero Tee Navy|
+     |Google Infant Zip Hood Royal Blue             |
+     |Google Men's Vintage Tank                     |
+     |Google Heavyweight Long Sleeve Hero Tee Navy  |
+     |Google Bib White                              |
 
 
   
