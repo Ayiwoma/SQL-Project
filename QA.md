@@ -10,23 +10,14 @@ Describe your QA process and include the SQL queries used to execute it.
 
    a.SQL Queries
    
-  	```SELECT full_visitor_id
-  	FROM all_sessions```
+  	```SELECT COUNT(full_visitor_id )
+   
+ FROM    all_sessions```
 
-  	Results = 15,134
+|count                        |
+|-----------------------------|
+|15134                        |
 
-|full_visitor_id    |
-|-------------------|
-|2817722496551184128|
-|6938960486452471698|
-|5307554331754279093|
-|5256949873742090146|
-|7549308697995967647|
-|5444913961890272648|
-|914760062456295531 |
-|4476811245637991248|
-|5153038635419747224|
-|0719635766852234475|
 
 
 
